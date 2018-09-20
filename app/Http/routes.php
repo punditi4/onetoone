@@ -23,4 +23,6 @@ Route::get('/insert', function () {
     $user = User::findOrFail(1);
 
 
+    echo "ok";
+
 });
